@@ -421,11 +421,13 @@ label {
     }
 
     .title-desc {
-        width: 80%;
+        margin-left: -10%;
+        width: 100%
     }
 
-    .title-buttons .btn {
-        width: 80%;
+    .title-buttons {
+        width: 100%;
+        margin-left: -5%;
     }
 
     .title-image {
@@ -435,7 +437,6 @@ label {
     }
 
     .navbar-brand {
-        left: -10%;
         margin: 0;
     }
 
@@ -444,6 +445,15 @@ label {
     }
 
     #navbarToggler {
-        margin: 2.5rem;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:402px) {
+    
+    .navbar-brand {
+        padding: 10px;
+        font-size: 1.275rem;
+        position: relative;
     }
 }
