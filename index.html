@@ -1,433 +1,372 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
     <title>Perdanaerda</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
-<body class="bg-light">
-    <header>
-        <nav class="navbar navbar-light bg-light navbar-expand-lg">
-            <a href="" class="navbar-brand ">Perdanaerda</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ms-auto me-auto px-lg-0 px-md-4 px-sm-4">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-            <button class="navbar-toggler ms-auto me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-    </header>
-    <div class="home" id="home">
-        <div class="container-fluid col-xxl-12 pt-5 bg-light">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-sm-12 col-lg-6 my-0">
-                    <img src="assets/img/mypics2.jpg" class="profile-pic d-lg-block d-sm-none" alt="Perdanaerda">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold lh-1 mb-3 text-lg-end text-center text-uppercase">Perdana Wahyu </h1>
-                    <h2 class="text-center text-lg-end">I'm a Web Developer</h2>
-                    <div class="d-grid gap-2 d-md-flex justify-content-lg-end justify-content-center  mt-5">
-                        <button type="button" class="btn btn-cv btn-lg px-4 me-md-2">Download CV</button>
+<body>
+    <section id="home" class="">
+        <div class="container-fluid">
+            <!-- Navbar -->
+            <header>
+                <nav class="navbar navbar-expand-xxl">
+                    <a class="navbar-brand" href="/">perdanaErda</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="bi bi-list"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ms-auto me-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#news">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="about" id="about">
-        <div class="row">
-            <div class="container-fluid col-xxl-12 py-5 bg-light">
-                <div class="container">
-                    <div class="section-title my-5">
-                        <span>About me</span>
-                    </div>
-                    <div class="about-desc">
-                        <div class="row">
-                            <div class="col-lg-6 mt-3">
-                                <p>Hello there! My name is Perdana Wahyu Jatmiko. I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <ul class="label">
-                                            <li>Fullname :</li>
-                                            <li>Nickname :</li>
-                                            <li>Phone :</li>
-                                            <li>Email :</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="answer text-start">
-                                            <li>Perdana Wahyu Jatmiko</li>
-                                            <li>Erda</li>
-                                            <li>+6282282576357</li>
-                                            <li>perdanawjatmiko@gmail.com</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="container-fluid col-xxl-12 py-3 bg-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="section-title mb-5">
-                                <span>Skills </span>
-                            </div>
-                            <div class="my-5">
-                                <div class="row">
-                                    <div class="col-3">
-                                        <p class="skill-label">HTML</p>
-                                    </div>
-                                    <div class="col-8">
-                                        <div class="progress">
-                                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
-                                        <p class="skill-label">CSS</p>
-                                    </div>
-                                    <div class="col-8">
-                                        <div class="progress">
-                                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-3">
-                                        <p class="skill-label">Javascript</p>
-                                    </div>
-                                    <div class="col-8">
-                                        <div class="progress">
-                                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="section-title mb-5">
-                                <span>Services </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="container-fluid col-xxl-12 py-3 bg-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="section-title">
-                                <span>Education </span>
-                            </div>
-                            <div class="row my-3">
-                                <div class="accordion my-5" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                                College
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="pb-3 fw-bold">IIB Darmajaya, Lampung</div>
-                                                <p>Teknik Informatika <br> 2014 - 2022</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                Senior High School
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="pb-3 fw-bold">SMK Negeri 4 Bandar Lampung</div>
-                                                <p>2011-2014</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" 
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                                Junior high school
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="pb-3 fw-bold">SMP Negeri 25 Bandar Lampung</div>
-                                                <p>
-                                                    2008 - 2011
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingFour">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                Primary School
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                            data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="pb-3 fw-bold">SD Negeri 2 Palapa Bandar Lampung</div>
-                                                <p>
-                                                    2002 - 2008
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="section-title">
-                                <span>Experience </span>
-                            </div>
-                            <div class="row my-3">
-                                <div class="accordion my-5" id="accordionExp">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="ExpOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpOne">
-                                                2021 - Present
-                                            </button>
-                                        </h2>
-                                        <div id="collapseExpOne" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <h4>RMOLNETWORK</h4>
-                                                <h5 class="fw-bold">Web Developer</h5>
-                                                <p>Help producing News websites CMS compatible with multiple browsers. And contain Fully Features customer desire using HTML CSS Javascript and Wordpress.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="ExpTwo">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpTwo">
-                                                2019 - 2021
-                                            </button>
-                                        </h2>
-                                        <div id="collapseExpTwo" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <h4>PT. Coresystem Data Indonesia</h4>
-                                                <h5 class="fw-bold">Web Developer</h5>
-                                                <p>Help producing News websites CMS compatible with multiple browsers. And contain Fully Features customer desire using HTML CSS Javascript.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="ExpThree">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExpThree">
-                                                2016 - 2019
-                                            </button>
-                                        </h2>
-                                        <div id="collapseExpThree" class="accordion-collapse collapse">
-                                            <div class="accordion-body">
-                                                <h4>PT. Darmajaya Digital Solusi</h4>
-                                                <h5 class="fw-bold">Network Engineer</h5>
-                                                <p>Building Server Mid-Traffic for villages, Data Center for Diskominfo Lampung Tengah. Building Private Server and Connection for BPKAD Lampung Tengah</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="dottedhr">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio my-5" id="portfolio">
-        <div class="row">
-            <div class="container-fluid col-xxl-12 py-5 bg-light">
-                <div class="container">
-                    <h1 class="text-center">Portfolio</h1>
-                    <p class="fs-5 text-center">here are some of the portfolios i created or participated in</p>
-                </div>
-            </div>
-        </div>
-        <div class="container bg-light">
+                </nav>
+            </header>
+            <!-- Title -->
             <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio/rmolnetwork.png" class="img-fluid img-thumbnail img-portfolio" alt="RMOLNETWORK">
-                        <div class="middle">
-                            <div class="text">
-                                <a href="https://rmolnetwork.id" target="_blank" class="btn btn-cv"> Visit my Portfolio </a>
-                            </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                        <div class="title-desc">
+                            <h4>Hello I'm,</h4>
+                            <h1>Perdana Erda</h1>
+                            <h4>a <span class="typing"></span></h4>
+                        </div>
+                        <div class="title-buttons">
+                            <a href="./assets/docs/CV_PerdanaWahyuJatmiko.pdf" class="btn btn-lg btn-cv">Download CV </a>
+                            <a href="#contact" class="btn btn-lg btn-chat">Contact Me</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio/rmolnetwork.png" class="img-fluid img-thumbnail img-portfolio" alt="RMOLNETWORK">
-                        <div class="middle">
-                            <div class="text">
-                                <a href="https://rmolnetwork.id" target="_blank" class="btn btn-cv"> Visit my Portfolio </a>
-                            </div>
-                        </div>
+                    <div class="col-lg-6 col-md-12 col-12">
+                            <img class="title-image" src="./assets/img/myPics.jpg" alt="Perdana Erda">
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="portfolio-item">
-                        <img src="assets/img/portfolio/rmolnetwork.png" class="img-fluid img-thumbnail img-portfolio" alt="RMOLNETWORK">
-                        <div class="middle">
-                            <div class="text">
-                                <a href="https://rmolnetwork.id" target="_blank" class="btn btn-cv"> Visit my Portfolio </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-    <hr class="dottedhr">
-    <div class="blog my-5" id="blog">
-        <div class="container col-xxl-12 py-5">
-            <div class="row">
-                <div class="container">
-                    <h1 class="text-center">My Blog</h1>
-                    <p class="fs-5 text-center">Some of the writings and blogs that I created.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <div class="card">
-                        <img src="assets/img/blogs/my-blog.png" class="card-img-top" alt="myBlog">
-                        <div class="card-body">
-                            <h5 class="card-title">Who am I ?</h5>
-                            <em class="card-text blog-meta">Erda / 06 Dec 2022</em>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, assumenda.</p>
-                            <div class="read-more text-center">
-                                <a href="#" class="btn btn-cv">Read more...</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="card">
-                        <img src="assets/img/blogs/my-blog.png" class="card-img-top" alt="myBlog">
-                        <div class="card-body">
-                            <h5 class="card-title">Who am I ?</h5>
-                            <em class="card-text blog-meta">Erda / 06 Dec 2022</em>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, assumenda.</p>
-                            <div class="read-more text-center">
-                                <a href="#" class="btn btn-cv">Read more...</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <div class="card">
-                        <img src="assets/img/blogs/my-blog.png" class="card-img-top" alt="myBlog">
-                        <div class="card-body">
-                            <h5 class="card-title">Who am I ?</h5>
-                            <em class="card-text blog-meta">Erda / 06 Dec 2022</em>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, assumenda.</p>
-                            <div class="read-more text-center">
-                                <a href="#" class="btn btn-cv">Read more...</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="contact-me mt-5" id="contact-me">
-        <div class="container-fluid col-xxl-12 py-5 bg-black">
-            <div class="container">
-                <h1 class="text-light text-center">Get in Touch</h1>
-                <div class="contact-detail my-5">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="contact-location fs-5 text-white"><i class="bi bi-geo-alt-fill contact-icon"></i> Bogor, Indonesia</div>
-                            <div class="contact-email fs-5 text-white"><i class="bi bi-envelope-at-fill contact-icon"></i> perdanawjatmiko@gmail.com</div>
-                            <div class="contact-phone fs-5 text-white"><i class="bi bi-whatsapp contact-icon"></i> +62 822 8257 6357</div>
-                            <div class="contact-linkedin fs-5 text-white"><i class="bi bi-linkedin contact-icon"></i> <a href="https://www.linkedin.com/in/perdana-wahyu-jatmiko/" class="">https://www.linkedin.com/in/perdana-wahyu-jatmiko/</a></div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Send me Message</h5>
-                                    <p class="card-text">Email me and I will reply ASAP</p>
-                                    <form action="mailto:perdanawjatmiko@gmail.com" method="POST" enctype="text/plain">
-                                        <div class="form-floating mb-3">
-                                            <input type="text" name="Name" class="form-control" id="floatingName" placeholder="Your Name">
-                                            <label for="floatingName">Your Name</label>
-                                        </div>
-                                        <div class="form-floating mb-3">
-                                            <input type="email" name="E-mail" class="form-control" id="floatingEmail" placeholder="Your Email">
-                                            <label for="floatingEmail">Your Email</label>
-                                        </div>
-                                        <div class="form-floating mb-3">
-                                            <textarea name="message" id="floatingMessage" class="form-control" style="height: 100px;" placeholder="Type ur message"></textarea>
-                                            <label for="floatingMessage">Type ur Message</label>
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <button type="submit" class="btn btn-lg btn-cv">Submit ur Message</button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="footer py-3 my-2">
+    </section>
+    <section id="about" class="">
+        <div class="section-title">About me</div>
         <div class="container">
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item"><a href="#home" class="nav-link px-2">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link px-2">About</a></li>
-                    <li class="nav-item"><a href="#portfolio" class="nav-link px-2">Portfolio</a></li>
-                    <li class="nav-item"><a href="#blog" class="nav-link px-2">Blog</a></li>
-                    <li class="nav-item"><a href="#contact-me" class="nav-link px-2">Contact Me</a></li>
-                </ul>
-                <p class="text-center">© 2022 Perdana Erda</p>
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-12">
+                    <p class="info-summary card">
+                        Hello there! My name is Perdana. I am a Website Developer, and I'm very passionate and dedicated to my work. <br>
+                        With 6 years experience as a Website Developer, I have acquired the skills and knowledge necessary to make your project a success.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12">
+                    <div class="info-list card">
+                        <ul>
+                            <li>
+                                <span class="title">Fullname</span>
+                                <span class="value">Perdana Wahyu Jatmiko</span>
+                            </li>
+                            <li>
+                                <span class="title">Address</span>
+                                <span class="value">Sentul City, Bogor. Indonesia.</span>
+                            </li>
+                            <li>
+                                <span class="title">Phone</span>
+                                <span class="value">+62 82282576357</span>
+                            </li>
+                            <li>
+                                <span class="title">Email</span>
+                                <span class="value">perdanawjatmiko@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="section-title">Skills</div>
+        <div class="container skills">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-12 mx-auto">
+                    <div class="card">
+                        <p class="skills-label">HTML</p>
+                        <div class="skills-container">
+                            <div class="skills-item html">90%</div>
+                        </div>
+                        <p class="skills-label">CSS</p>
+                        <div class="skills-container">
+                            <div class="skills-item css">90%</div>
+                        </div>
+                        <p class="skills-label">JavaScript</p>
+                        <div class="skills-container">
+                            <div class="skills-item javascript">70%</div>
+                        </div>
+                        <p class="skills-label">ReactJS</p>
+                        <div class="skills-container">
+                            <div class="skills-item react">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="section-title">What i do</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-4">
+                    <div class="services card mt-3">
+                        <i class="services-icon bi bi-postcard"></i>
+                        <h5 class="service-title">Landing Page</h5>
+                        <p class="service-desc">Create Landing Pages for websites such as: personal, company, product and mobile applications.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4">
+                    <div class="services card mt-3">
+                        <i class="services-icon bi bi-laptop"></i>
+                        <h5 class="service-title">Web Development</h5>
+                        <p class="service-desc">Create websites such as: personal websites, company websites and others</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4">
+                    <div class="services card mt-3">
+                        <i class="services-icon bi bi-brush"></i>
+                        <h5 class="service-title">Web Design</h5>
+                        <p class="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, temporibus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="">
+        <div class="section-title">Resume</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-6">
+                    <h4 class="resume-col card">Experiences</h4>
+                    <div class="timeline card">
+                        <ul class="timeline-detail">
+                            <li>
+                                <div class="tl-year">2020 - 2022</div>
+                                <h3 class="tl-company">RMOLNETWORK</h3>
+                                <h4 class="tl-role">as a <span>Web Developer</span></h4>
+                                <p class="tl-description">I was helping upgrade News Websites CMS to make it compatible with multiple browsers. And contain Fully Features that user desire using HTML CSS Javascript.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="timeline card">
+                        <ul class="timeline-detail">
+                            <li>
+                                <div class="tl-year">2019 - 2020</div>
+                                <h3 class="tl-company">PT. Coresystem Data Indonesia</h3>
+                                <h4 class="tl-role">as a <span>Web Developer</span></h4>
+                                <p class="tl-description">I was Helping the development of news websites CMS compatible with multiple browsers. And contain Fully Features customer desire using HTML CSS Javascript.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="timeline card">
+                        <ul class="timeline-detail">
+                            <li>
+                                <div class="tl-year">2016 - 2019</div>
+                                <h3 class="tl-company">PT. Darmajaya Digital Solusi</h3>
+                                <h4 class="tl-role">as a Network Engineer</h4>
+                                <p>Building Server Mid-Traffic for villages, Data Center for Diskominfo Lampung Tengah. Building Private Server and Connection for BPKAD Lampung Tengah. And Help creating Village Website using HTML CSS.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-6">
+                    <h4 class="resume-col card">Educations</h4>
+                    <div class="timeline card">
+                        <ul class="timeline-detail">
+                            <li>
+                                <div class="tl-year">2014 - 2022</div>
+                                <h3>IIB Darmajaya</h3>
+                                <p>Teknik Informatika</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="timeline card">
+                        <ul class="timeline-detail">
+                            <li>
+                                <div class="tl-year">2011 - 2014</div>
+                                <h3>SMK Negeri 4 Bandar Lampung</h3>
+                                <p>Teknik Komputer dan Jaringan (TKJ)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="timeline card">
+                        <ul class="timeline-detail">
+                            <li>
+                                <div class="tl-year">2009 - 2011</div>
+                                <h3>SMP Negeri 25 Bandar Lampung</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="timeline card">
+                        <ul class="timeline-detail">
+                            <li>
+                                <div class="tl-year">2003 - 2009</div>
+                                <h3>SD Negeri 2 Palapa Bandar Lampung</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="">
+        <div class="section-title">Portfolio</div>
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-12">
+                <div class="portfolio-item card">
+                    <img class="portfolio-img" src="./assets/img/portfolio1rmolnetwork.png" alt="">
+                    <p class="text-center my-3">RMOLNETWORK</p>
+                    <a href="https://rmolnetwork.id" class="btn btn-dark" target="_blank">Visit Link ></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-12">
+                <div class="portfolio-item card">
+                    <img class="portfolio-img" src="./assets/img/portfolio1rmollampung.png" alt="">
+                    <p class="text-center my-3">RMOLDaerah (Lampung)</p>
+                    <a href="https://rmollampung.id" class="btn btn-dark" target="_blank">Visit Link ></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-12">
+                <div class="portfolio-item card">
+                    <img class="portfolio-img" src="./assets/img/portfolio1djcorp.png" alt="">
+                    <p class="text-center my-3">DJCORP (Company)</p>
+                    <a href="https://djcorp.co.id" class="btn btn-dark" target="_blank">Visit Link ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news" class="">
+        <div class="section-title">News</div>
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-8">
+                <div class="news-item card">
+                    <img class="news-img" src="./assets/img/html.png" alt="">
+                    <a class="news-title">Is HTML a programming language?</a>
+                    <span class="news-meta">
+                        <span class="material-icons">person</span> Perdana Erda
+                        <span class="material-icons">schedule</span> Just Now
+                    </span>
+                    <p class="news-excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sequi, quo fuga magni accusamus molestias libero perferendis qui hic ex?</p>
+                    <a class="news-link btn btn-dark" href="https://www.theserverside.com/feature/Is-HTML-a-programming-language#:~:text=a%20markup%20language-,HTML%20is%20not%20a%20programming%20language.,technology's%20name%3A%20HyperText%20Markup%20Language." target="_blank">Read More..</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-8">
+                <div class="news-item card">
+                    <img class="news-img" src="./assets/img/bootstrap-5.png" alt="">
+                    <a class="news-title">What is Bootstrap 5?</a>
+                    <span class="news-meta">
+                        <span class="material-icons">person</span> Perdana Erda
+                        <span class="material-icons">schedule</span> Just Now
+                    </span>
+                    <p class="news-excerpt">Bootstrap 5 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for creating responsive, mobile-first websites. Bootstrap 5 is completely free to download and use!</p>
+                    <a class="news-link btn btn-dark" href="">Read More..</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-8">
+                <div class="news-item card">
+                    <img class="news-img" src="./assets/img/reactjs.png" alt="">
+                    <a class="news-title">Why You Should Use React.js For Web Development</a>
+                    <span class="news-meta">
+                        <span class="material-icons">person</span> Perdana Erda
+                        <span class="material-icons">schedule</span> Just Now
+                    </span>
+                    <p class="news-excerpt">You must be wondering why you should use React.js. After all, as the uses of JavaScript have increased in recent years, we now have multiple options available in the market like Angular and Vue.js. So, why React?</p>
+                    <a class="news-link btn btn-dark" href="https://www.freecodecamp.org/news/why-use-react-for-web-development/#:~:text=React%20is%20an%20excellent%20tool,the%20web%20development%20share%20today.">Read More..</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="">
+        <div class="section-title">Contact Me</div>
+        <div class="card">
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-12">
+                    <div class="card mb-5">
+                        <i class="bi bi-whatsapp contact-icon"> </i>
+                        <a href="https://wa.link/aw7rew" class="contact-left" target="_blank">
+                            +6282282576357
+                        </a>
+                    </div>
+                    <div class="card mb-5">
+                        <i class="bi bi-envelope-at contact-icon"></i>
+                        <a href="mailto:perdanawjatmiko@gmail.com" class="contact-left" target="_blank">
+                            perdanawjatmiko@gmail.com
+                        </a>
+                    </div>
+                    <div class="card mb-5">
+                        <i class="bi bi-linkedin contact-icon"></i>
+                        <a href="https://www.linkedin.com/in/perdana-wahyu-jatmiko/" class="contact-left" target="_blank">
+                            Perdana Wahyu Jatmiko
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="card">
+                        <form action="mailto:perdanawjatmiko@gmail.com" method="post" enctype="text/plain">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 col-md-6">
+                                    <label for="name">Fullname</label>
+                                    <input type="text" name="name" id="" class="form-control my-3">
+                                    <label for="name">Email</label>
+                                    <input type="email" name="email" id="" class="form-control my-3">
+                                    <label for="name">Subject</label>
+                                    <input type="text" name="subject" id="" class="form-control my-3">
+                                </div>
+                                <div class="col-12 col-lg-6 col-md-6">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="" cols="30" rows="10" class="form-control my-3"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button type="submit" class="btn btn-dark">Send me a Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12 col-lg-12 col-md-12">
+                    <div class="footer-copyright">
+                        &copy; 2020 by Perdana Erda | 
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/perdanawjatmiko/"><i class="bi bi-instagram social-footer"></i></a>
+                        <a href="https://www.facebook.com/perdana.wahyu.1/"><i class="bi bi-facebook social-footer"></i></a>
+                        <a href="https://www.linkedin.com/in/perdana-wahyu-jatmiko/"><i class="bi bi-linkedin social-footer"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
