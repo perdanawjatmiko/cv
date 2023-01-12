@@ -201,7 +201,7 @@ label {
 }
 
 .info-list li {
-    font-size: 3.5vw;
+    font-size: 1rem;
     list-style: none;
     margin: 20px;
 }
@@ -296,7 +296,7 @@ label {
 .timeline-detail .tl-year {
     width: 50%;
     text-align: center;
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: var(--color-black);
     margin: auto;
     margin-bottom: 5%;
@@ -311,12 +311,12 @@ label {
     text-align: center;
     transform: skewX(-10deg);
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .tl-role {
     margin-bottom: 5%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 /* Portofio Section */
